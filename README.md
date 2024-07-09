@@ -28,6 +28,38 @@
 
 ## Installation
 
+### build docker image
+
+```bash
+$ docker-compose build
+```
+
+### build start containers
+
+```bash
+$ docker-compose up -d
+```
+
+### generate prisma schema
+
+```bash
+$ npx prisma generate
+```
+
+### apply migration
+
+```bash
+$ npx prisma migrate dev
+```
+
+### prisma console
+
+```bash
+$ npx prisma studio
+```
+
+====================================
+
 ```bash
 $ npm install
 ```
